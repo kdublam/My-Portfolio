@@ -1,0 +1,73 @@
+/* Main CSS for the Nav bar, Body, and Footer */
+
+body {
+  background-color: white;
+  font-family: 'Raleway', sans-serif;
+  margin: 0px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#navCon {
+  /* position:sticky; */
+  top: 0;
+}
+
+#navbtn {
+  margin-top: 10%;
+}
+
+#navlink {
+  color: black;
+  text-decoration: none;
+}
+
+#navlink:hover {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+}
+
+#contactrow {
+  margin-top: 20px;
+}
+
+#contactlogo {
+  text-align: center;
+}
+
+.html {
+  width: 90%;
+  background-color: black;
+}
+
+.css {
+  width: 80%;
+  background-color: black;
+}
+
+.js {
+  width: 65%;
+  background-color: black;
+}
+
+.php {
+  width: 30%;
+  background-color: black;
+}
+
+#secHeader{
+  margin: 50px;
+}
+
+#profile{
+  margin-top: 100px;
+}
+#portfolio{
+  margin-top: 100px;
+}
+#resume{
+  margin-top: 100px;
+}
