@@ -8,23 +8,20 @@ body {
   height: 100%;
 }
 
-html {
+/* html {
   scroll-behavior: smooth;
-}
+} */
 
-.parallax {
-  /* The image used */
+/* .parallax {
   background-image: url("../images/library.jpg");
 
-  /* Full height */
   height: 100%; 
 
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
 
 #navCon {
   /* position:sticky; */
