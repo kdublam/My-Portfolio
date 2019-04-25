@@ -6,29 +6,44 @@ body {
   font-family: 'Raleway', sans-serif;
   margin: 0px;
   height: 100%;
+  width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+a {
+  text-decoration: none;
+  background-color: transparent;
 }
 
 html {
   scroll-behavior: smooth;
 }
 
-.parallax {
-  /* The image used */
-  background-image: url("../images/library.jpg");
+.parallax-container {
+  height: 600px;
+}
 
-  /* Full height */
-  height: 100%; 
+.parallax{
+  height: 200px;
 
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
+}
+
+#logobox{
+  margin-top:20px;
 }
 
 #navCon {
   /* position:sticky; */
   top: 0;
+  background-color: white;
 }
 
 #navbtn {
@@ -53,6 +68,16 @@ html {
 #contactlogo {
   text-align: center;
 }
+
+#fbicon{
+  margin-bottom: 10px;
+}
+
+#giticon{
+  margin-bottom: 10px;
+}
+
+
 
 .html {
   width: 90%;
