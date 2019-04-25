@@ -15,12 +15,17 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 
   <!-- CSS / Bootstrap links -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway:400,800,900" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
+
+
 
 
   <title>Kevin's Portfolio</title>
@@ -64,7 +69,7 @@
 
   <div id="profile">
     <div class="container">
-      <div id="contactrow" class="row">
+      <div id="contactrow" data-aos="zoom-out" class="row">
         <div id="contactlogo" class="col-4">
           <img src="assets/images/email.png" width="10%">
         </div>
@@ -76,7 +81,7 @@
         </div>
       </div>
 
-      <div id="contactrow" class="row">
+      <div id="contactrow" data-aos="zoom-out" class="row">
         <div id="contactlogo" class="col-4">
           <p>kevinwlam7@gmail.com</p>
         </div>
@@ -89,7 +94,7 @@
       </div>
 
       <div class="row">
-        <div class="col-12">
+        <div class="col-12" data-aos="fade-right">
           <h1>Kevin Lam</h1>
           <p>Full Stack Developer</p>
         </div>
@@ -97,10 +102,10 @@
 
       <div class="row">
         <div class="col-3">
-          <img src="assets/images/kevin.jpg" width="100%">
+          <img data-aos="fade-right" src="assets/images/kevin.jpg" width="100%">
         </div>
 
-        <div class="col-3">
+        <div class="col-3" data-aos="flip-right">
           <h3>Skillset</h3>
           <br>
           <div class="container">
@@ -125,34 +130,36 @@
         </div>
 
         <div class="col-6">
-          <h3>Professional Profile</h3>
-          <p>I'm a Seattle-based software engineer. I have worked in many mediums including games, mobile apps, and full
+          <h3 data-aos="fade-left">Professional Profile</h3>
+          <p data-aos="zoom-out">I'm a Seattle-based software engineer. I have worked in many mediums including games, mobile apps, and full
             stack web development. I can work anywhere in the Seattle metro areaand I have no issue working remotely for
             clients from anywhere in the world.</p>
-          <p>My skill set is fairly diverse, ranging from web application development and debugging, working in with
+          <p data-aos="zoom-out">My skill set is fairly diverse, ranging from web application development and debugging, working in with
             Google Firebase, front-end work, and SQL experience in Oracle and MySQL. A full set of skills is listed on
             my resume at the bottom of the page.</p>
-          <h3>Social Profiles</h3>
-          <a href="https://www.facebook.com/kevinwlam"><img src="assets/images/facebook.png" height="40px"></a>
-          <a href="https://www.linkedin.com/in/kevinwlam7"><img src="assets/images/linkedin.png" height="60px"></a>
-          <a href="https://github.com/kdublam"><img src="assets/images/github.png" height="40px"></a>
+          <h3 data-aos="fade-left">Social Profiles</h3>
+          <a href="https://www.facebook.com/kevinwlam"><img src="assets/images/facebook.png" data-aos="zoom-out" height="40px"></a>
+          <a href="https://www.linkedin.com/in/kevinwlam7"><img src="assets/images/linkedin.png" data-aos="zoom-out" height="60px"></a>
+          <a href="https://github.com/kdublam"><img src="assets/images/github.png" data-aos="zoom-out" height="40px"></a>
         </div>
 
       </div>
     </div>
   </div>
 
+  
+
   <div id="portfolio">
     <div class="container">
       <div class="row">
         <div id="secHeader" class="col-12">
-          <h1>Portfolio</h1>
+          <h1 data-aos="fade-right">Portfolio</h1>
         </div>
       </div>
 
       <div class="row">
         <div class="col-sm-12 col-md-6 col-lg-3">
-          <div class="card" style="width: 18rem;">
+          <div class="card" data-aos="zoom-in-right" style="width: 18rem;">
             <img src="assets/images/wordguess.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Star Wars Hangman</h5>
@@ -163,7 +170,7 @@
         </div>
 
         <div class="col-sm-12 col-md-6 col-lg-3">
-          <div class="card" style="width: 18rem;">
+          <div class="card" data-aos="zoom-in-right" style="width: 18rem;">
             <img src="assets/images/trivia.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">GoT Trivia</h5>
@@ -174,7 +181,7 @@
         </div>
 
         <div class="col-sm-12 col-md-6 col-lg-3">
-          <div class="card" style="width: 18rem;">
+          <div class="card" data-aos="zoom-in-left" style="width: 18rem;">
             <img src="assets/images/rps.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Multiplayer RPS</h5>
@@ -185,7 +192,7 @@
         </div>
 
         <div class="col-sm-12 col-md-6 col-lg-3">
-          <div class="card" style="width: 18rem;">
+          <div class="card" data-aos="zoom-in-left" style="width: 18rem;">
             <img src="assets/images/idbug.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">IDBug</h5>
@@ -205,18 +212,97 @@
     <div class="container">
       <div class="row">
         <div id="secHeader" class="col-12">
-          <h1>Resume</h1>
+          <h1 data-aos="fade-right">Resume</h1>
         </div>
       </div>
 
-      <h3>Education</h3>
+      <h3 data-aos="fade-right">Technical Skills</h3>
+      <div class="row">
+        <div data-aos="slide-up" class="col-12">
+          <br>
+          <p><b>Language: </b>Javascript, Python</p>
+          <p><b>Notation: </b>JSON, CSS</p>
+          <p><b>Database: </b>Oracle, MySQL</p>
+          <p><b>Markup Language: </b>HTML</p>
+          <p><b>Environment: </b>Node.js</p>
+          <p><b>Network Protocol: </b>HTTP/HTTPS, TCP/IP, DNS, DHCP, SNMP, FTP, SIP</p>
+        </div>
+      </div>
+      <br><br>
+      <hr>
+
+      <h3 data-aos="fade-right">Experience</h3>
       <div class="row">
         <div class="col-sm-7 col-md-8 col-lg-9">
           <br>
-          <h5>University of Washington</h5>
-          <h6>Bachelor of Science in Electrical Engineering</h6>
+          <h5 data-aos="zoom-in-right"><b>T-Mobile</b></h5>
+          <h6 data-aos="zoom-in-right">Network and Systems Engineer</h6><br>
+          <ul data-aos="slide-up">
+            <lh><b>Network enhancement to combat robocalls</b></lh>
+            <li>Implemented a new network element to identify and tag robocalls. Designed the basic architecture that
+              takes the robocaller's phone number and checks to see if it is in the ScamID database. If number matches,
+              it will display "Scam Likely" on the caller ID</li>
+            <li>The mechanism has identified over 12 billion robo/scam calls (as of April 2019)</li><br>
+            <lh><b>Patented design for E911 Backoff</b></lh>
+            <li>Design and implemented mechanism that prevents E911 calls from being blocked or tagged as "Scam Likely"
+              during real emergency
+            <li>Patent was submitted in April 2019</li>
+          </ul>
         </div>
-        <div class="col-sm-5 col-md-4 col-lg-3">
+        <div data-aos="zoom-in-left" class="col-sm-5 col-md-4 col-lg-3">
+          <img src="assets/images/place.png" width="10%"> Bellevue, WA<br><br>
+          <img src="assets/images/calender.png" width="10%"> June 2016- Present
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-7 col-md-8 col-lg-9">
+          <br>
+          <h5 data-aos="zoom-in-right"><b>Synology</b></h5>
+          <h6 data-aos="zoom-in-right">Senior Support Engineer</h6><br>
+          <ul data-aos="slide-up">
+            <lh><b>Validation and Testing of Synology NAS OS ver. 5.3</b></lh>
+            <li>Created Wiki page for validation and test procedures for Tier 2 Support team</li>
+            <li>Launched in Nov 2015 and won CNET’s Editors’ Choice awards for most advanced OS for NAS servers</li><br>
+            <lh><b>Research and Development of OS ver. 6.0</b></lh>
+            <li>Wrote new OS training material for the Tier 2 Support team
+            <li>Collaborated with teams overseas to translate training material for international markets</li>
+          </ul>
+        </div>
+        <div data-aos="zoom-in-left" class="col-sm-5 col-md-4 col-lg-3">
+          <img src="assets/images/place.png" width="10%"> Bellevue, WA<br><br>
+          <img src="assets/images/calender.png" width="10%"> September 2014- September 2015
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-7 col-md-8 col-lg-9">
+          <br>
+          <h5 data-aos="zoom-in-right"><b>Navy Special Warfare Resilience Program</b></h5>
+          <h6 data-aos="zoom-in-right">IT Network Engineer</h6><br>
+          <ul data-aos="slide-up">
+            <lh><b>Automation of Daily KPI Reports</b></lh>
+            <li>Used object-oriented python scripting to automate daily KPI reports from network servers</li>
+            <li>Received the Executive Awards for Innovation of the Month in July 2014 for the non-profit program</li><br>
+          </ul>
+        </div>
+        <div data-aos="zoom-in-left" class="col-sm-5 col-md-4 col-lg-3">
+          <img src="assets/images/place.png" width="10%"> Bellevue, WA<br><br>
+          <img src="assets/images/calender.png" width="10%"> September 2014- September 2015
+        </div>
+      </div>
+      <br><br>
+      <hr>
+
+
+      <h3 data-aos="fade-right">Education</h3>
+      <div class="row">
+        <div class="col-sm-7 col-md-8 col-lg-9">
+          <br>
+          <h5 data-aos="zoom-in-right"><b>University of Washington</b></h5>
+          <h6 data-aos="zoom-in-right">Bachelor of Science in Electrical Engineering</h6>
+        </div>
+        <div data-aos="zoom-in-left" class="col-sm-5 col-md-4 col-lg-3">
           <img src="assets/images/place.png" width="10%"> Seattle, WA<br><br>
           <img src="assets/images/grad.png" width="10%"> June 2016
         </div>
@@ -225,42 +311,27 @@
       <div class="row">
         <div class="col-sm-7 col-md-8 col-lg-9">
           <br>
-          <h5>University of Washington</h5>
-          <h6>Coding Bootcamp</h6>
+          <h5 data-aos="zoom-in-right"><b>University of Washington</b></h5>
+          <h6 data-aos="zoom-in-right">Coding Bootcamp</h6>
         </div>
-        <div class="col-sm-5 col-md-4 col-lg-3">
+        <div data-aos="zoom-in-left" class="col-sm-5 col-md-4 col-lg-3">
           <img src="assets/images/place.png" width="10%"> Seattle, WA<br><br>
           <img src="assets/images/grad.png" width="10%"> August 2019
         </div>
       </div>
-      <br><br><hr>
 
-      <h3>Technical Skills</h3>
-      <div class="row">
-        <div class="col-12">
-          <br>
-          <p><b>Language: </b>Javascript, Python</p>
-          <p><b>Notation: </b>JSON, CSS</p>
-          <p><b>Database: </b>Oracle, MySQL</p>
-          <p><b>Markup Language: </b>HTML</p>
-          <p><b>Environment: </b>Node.js</p>
-          <p><b>Network Protocol: </b>HTTP/HTTPS, SIP</p>
-        </div>
-      </div>
-      <br><br><hr>
 
-      <h3>Experience</h3>
-      <div class="row">
-        <div class="col-12">
-          <br>
-         
-        </div>
-      </div>
+      <br><br>
+      <hr>
 
     </div>
   </div>
 
-
+  <script>
+      AOS.init({
+        duration: 1200,
+      });
+    </script>
 </body>
 
 </html>

@@ -1,13 +1,29 @@
 /* Main CSS for the Nav bar, Body, and Footer */
 
+
 body {
   background-color: white;
   font-family: 'Raleway', sans-serif;
   margin: 0px;
+  height: 100%;
 }
 
 html {
   scroll-behavior: smooth;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("../images/library.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #navCon {
