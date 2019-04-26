@@ -30,10 +30,10 @@
 </head>
 
 <body>
-  <!-- Nav bar -->
+
   <div>
     <div id="navCon" class="container">
-      <div class="row">
+      <div class="row navRow">
         <div id="logodiv" class="col l3 m4 s12 smalltop">
           <div id="logobox">
             <a id="logolink" href="#">
@@ -47,10 +47,10 @@
 
         <div id="linkdiv" class="col l5 m4 s12">
           <div id="navbtn">
-            <a href="#" class="waves-effect waves-black btn-flat">Home</a>
-            <a href="#profile" class="waves-effect waves-blak btn-flat">Profile</a>
-            <a href="#portfolio" class="waves-effect waves-black btn-flat">Portfolio</a>
-            <a href="#resume" class="waves-effect waves-black btn-flat">Resume</a>
+            <a href="#" id="navlink">Home</a>
+            <a href="#profile" id="navlink">Profile</a>
+            <a href="#portfolio" id="navlink">Portfolio</a>
+            <a href="#resume" id="navlink">Resume</a>
 
             <!-- <a href="#"><button id="navlink" type="button" class="btn btn-link">Home</button></a>
           <a href="#profile"><button id="navlink" type="button" class="btn btn-link">Profile</button></a>
@@ -80,7 +80,7 @@
     <div class="container">
       <div id="contactrow" data-aos="zoom-out" class="row">
         <div id="contactlogo" class="col s4">
-          <img src="assets/images/email.png" width="10%">
+          <a href="mailto:kevinwlam7@gmail.com"><img src="assets/images/email.png" width="10%"></a>
         </div>
         <div id="contactlogo" class="col s4">
           <img src="assets/images/phone.png" width="10%">
@@ -92,7 +92,9 @@
 
       <div id="contactrow" data-aos="zoom-out" class="row">
         <div id="contactlogo" class="col s4">
-          <p>kevinwlam7@gmail.com</p>
+          <a id="emaillink" href="mailto:kevinwlam7@gmail.com">
+            <p>kevinwlam7@gmail.com</p>
+          </a>
         </div>
         <div id="contactlogo" class="col s4">
           <p>(206)-697-7430</p>
@@ -162,6 +164,9 @@
     </div>
   </div>
 
+  <div class="parallax-container">
+      <div class="parallax"><img src="assets/images/gumwall.jpg" width="2500px"></div>
+    </div>
 
 
   <div id="portfolio">
@@ -213,7 +218,7 @@
               <span class="card-title">GoT Trivia</span>
             </div>
             <div class="card-content">
-              <p>Trivia game using HTML, CSS, and Javascript</p><br>
+              <p>Trivia game using HTML, CSS, and Javascript</p>
             </div>
             <div class="card-action">
               <a href="https://kdublam.github.io/TriviaGame/">Go</a>
@@ -236,7 +241,7 @@
               <span class="card-title">Multiplayer RPS</span>
             </div>
             <div class="card-content">
-              <p>Online multiplayer RPS game using Javascript and Firebase</p><br>
+              <p>Online multiplayer RPS game using Javascript and Firebase</p>
             </div>
             <div class="card-action">
               <a href="https://kdublam.github.io/RPS-Multiplayer/">Go</a>
@@ -260,7 +265,7 @@
               <span class="card-title">IDBug</span>
             </div>
             <div class="card-content">
-              <p>Medical application to find specialized doctors near you</p><br>
+              <p>Medical application to find specialized doctors near you</p>
             </div>
             <div class="card-action">
               <a href="https://lbeagleeyes.github.io/Project-1/">Go</a>
@@ -273,6 +278,10 @@
       </div>
     </div>
   </div>
+
+  <div class="parallax-container">
+      <div class="parallax"><img src="assets/images/coffee.jpg" width="2000px"></div>
+    </div>
 
   <div id="resume">
     <div class="container">
@@ -306,16 +315,16 @@
           <h6 data-aos="zoom-in-right">Network and Systems Engineer</h6><br>
           <ul data-aos="slide-up">
             <lh><b>Network enhancement to combat robocalls</b></lh>
-            <li>Implemented a new network element to identify and tag robocalls. Designed the basic architecture that
+            <li>- Implemented a new network element to identify and tag robocalls. Designed the basic architecture that
               takes the robocaller's phone number and checks to see if it is in the ScamID database. If number
               matches,
               it will display "Scam Likely" on the caller ID</li>
-            <li>The mechanism has identified over 12 billion robo/scam calls (as of April 2019)</li><br>
+            <li>- The mechanism has identified over 12 billion robo/scam calls (as of April 2019)</li><br>
             <lh><b>Patented design for E911 Backoff</b></lh>
-            <li>Design and implemented mechanism that prevents E911 calls from being blocked or tagged as "Scam
+            <li>- Design and implemented mechanism that prevents E911 calls from being blocked or tagged as "Scam
               Likely"
               during real emergency
-            <li>Patent was submitted in April 2019</li>
+            <li>- Patent was submitted in April 2019</li>
           </ul>
         </div>
         <div data-aos="zoom-in-left" class="col s5 m4 l3">
@@ -331,12 +340,12 @@
           <h6 data-aos="zoom-in-right">Senior Support Engineer</h6><br>
           <ul data-aos="slide-up">
             <lh><b>Validation and Testing of Synology NAS OS ver. 5.3</b></lh>
-            <li>Created Wiki page for validation and test procedures for Tier 2 Support team</li>
-            <li>Launched in Nov 2015 and won CNET’s Editors’ Choice awards for most advanced OS for NAS servers</li>
+            <li>- Created Wiki page for validation and test procedures for Tier 2 Support team</li>
+            <li>- Launched in Nov 2015 and won CNET’s Editors’ Choice awards for most advanced OS for NAS servers</li>
             <br>
             <lh><b>Research and Development of OS ver. 6.0</b></lh>
-            <li>Wrote new OS training material for the Tier 2 Support team
-            <li>Collaborated with teams overseas to translate training material for international markets</li>
+            <li>- Wrote new OS training material for the Tier 2 Support team
+            <li>- Collaborated with teams overseas to translate training material for international markets</li>
           </ul>
         </div>
         <div data-aos="zoom-in-left" class="col s5 m4 l3">
@@ -352,14 +361,14 @@
           <h6 data-aos="zoom-in-right">IT Network Engineer</h6><br>
           <ul data-aos="slide-up">
             <lh><b>Automation of Daily KPI Reports</b></lh>
-            <li>Used object-oriented python scripting to automate daily KPI reports from network servers</li>
-            <li>Received the Executive Awards for Innovation of the Month in July 2014 for the non-profit program</li>
+            <li>- Used object-oriented python scripting to automate daily KPI reports from network servers</li>
+            <li>- Received the Executive Awards for Innovation of the Month in July 2014 for the non-profit program</li>
             <br>
           </ul>
         </div>
         <div data-aos="zoom-in-left" class="col s5 m4 l3">
           <img src="assets/images/place.png" width="10%"> Bellevue, WA<br><br>
-          <img src="assets/images/calender.png" width="10%"> September 2014- September 2015
+          <img src="assets/images/calender.png" width="10%"> March 2014- September 2014
         </div>
       </div>
       <hr>
