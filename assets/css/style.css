@@ -122,7 +122,9 @@ a {
   text-decoration: none;
 }
 
-
+#skillbar{
+  margin:0;
+}
 
 /* #contactrow {
   margin-top: 10px;
@@ -164,6 +166,7 @@ a {
 
 #secHeader{
   margin: 5%;
+  margin-left: 0;
 }
 
 #profile{
