@@ -7,6 +7,10 @@
 
 // Or with jQuery
 
+// $('#gallery img').each(function(i) {
+//   $(this).delay(i*200).fadeIn(3000);
+// });
+
 $(document).ready(function(){
   $('.parallax').parallax();
 });

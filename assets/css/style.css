@@ -164,6 +164,17 @@ a {
   background-color: black;
 }
 
+.skillsicon{
+  display: inline-block;
+  float: left;
+  margin-right: 65px;
+  margin-bottom: 20px;
+}
+
+#darkcard{
+  color:black;
+}
+
 #secHeader{
   margin: 5%;
   margin-left: 0;
@@ -178,3 +189,101 @@ a {
 #resume{
   margin-top: 100px;
 }
+
+#eddates{
+  margin-left: 0;
+}
+
+
+
+/* .bounce {
+  animation: bounce 2s linear;
+  -webkit-animation: bounce 2s linear;
+  -moz-animation: bounce 2s linear;
+  -o-animation: bounce 2s linear;
+}
+
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+  }
+}
+@-moz-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+  }
+}
+@-o-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -o-transform: translateY(0);
+  }
+  40% {
+    -o-transform: translateY(-30px);
+  }
+  60% {
+    -o-transform: translateY(-15px);
+  }
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+} */
+
+/* #gallery { width:90%; 
+  img { margin:1px; display: none; } 
+} 
+
+#float{
+position: relative;
+-webkit-animation: floatBubble 2s;
+  animation-fill-mode: forwards;  
+  }
+
+
+@-webkit-keyframes floatBubble{
+ 0%{
+        top:0;
+        -webkit-animation-timing-function: ease-in;
+
+   }
+
+
+   33% {
+      top: 50px;
+      -webkit-animation-timing-function: ease-out;
+   }
+  66%{
+        top:0;
+        -webkit-animation-timing-function: ease-in;
+
+   }
+  
+  100%{
+        top:50px;
+        -webkit-animation-timing-function: ease-in;
+
+   }
+
+}
+
+
+ */
